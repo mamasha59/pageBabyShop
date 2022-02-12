@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="./style.css" rel='stylesheet' type='text/css'>
+    <title>BabyShop</title>
+</head>
+<body>
+    <div class="container">
+       <header class="hat">
+           <div class="hat__logo hover">LOGO</div>
+           <nav class="hat__block">
+               <div class="hat__profile hat-common hover">
+                   <img src="./img/isons/person.svg" alt="иконка профиля">
+               </div>
+               <div class="hat__favorite hat-common hover">
+                <img src="./img/isons/favorite.svg" alt="иконка избранные">
+               </div>
+               <div class="hat__basket hat-common hover">
+                <img src="./img/isons/Group.svg" alt="иконка карзины">
+               </div>
+
+                 <div class="hat__burger-button">
+                    <span class="hat__burger-strip"></span>
+                 </div>
+
+                <div class="hat__burder-menu">
+                    <ul>
+                        <li class="hat__burder-list hover">постельное белье</li>
+                        <li class="hat__burder-list hover">одежда для дома</li>
+                        <li class="hat__burder-list hover">Одежда для улицы</li>
+                        <li class="hat__burder-list hover">Выход</li>
+                    </ul>
+                    <div class="hat__overlay"></div>
+                </div>
+           </nav>
+
+          
+           
+       </header>
+       <main class="main">
+            <section class="about-item">
+                <div class="main__galerry">
+                    <div class="main__smal-img"></div>
+                    <div class="main__big-img">
+                        <img src="./img/pictures/big.svg" alt="большая картинка">
+                    </div>
+                    <div class="main__galerry-smal">
+                        <div class="main__galerry-smal-img hover">
+                            <img src="./img/pictures/smalOfBig5.svg" alt="картинка (маленькое превью)">
+                        </div>
+                        <div class="main__galerry-smal-img hover">
+                                <img src="./img/pictures/smalofBig6.svg" alt="картинка (маленькое превью)">  
+                            </div>
+                        <div class="main__galerry-smal-img hover">
+                                <img src="./img/pictures/smalOfBig2.svg" alt="картинка (маленькое превью)">
+                            </div>
+                            <div class="main__galerry-smal-img hover">
+                                <img src="./img/pictures/smalOfBig4.svg" alt="картинка (маленькое превью)">
+                            </div>
+                            <div class="main__galerry-smal-img hover">
+                            <img src="./img/pictures/smalOfBig3.svg" alt="картинка (маленькое превью)"> 
+                            </div>
+                    </div>
+                </div>
+                <div class="main__tools">
+                    <div class="main__block-description">
+                        <h2 class="main__tools-title">Пижама для девочек</h2>
+                        <p class="main__tools-article">Арт. 02765/46</p>
+                        <div class="main__tools-other-block">
+                            <p class="main__tools-coments hover">Отзывы</p>
+                            <div class="main__tools-starts">
+                                <img src="./img/isons/stars.svg" alt="икона рейтинга товара">
+                            </div>
+                            <p class="main__tools-coments-link hover">14 отзывов</p>
+                            <div class="main__utils-prise-arrow hover">
+                                <img src="./img/isons/arrow-prise.svg" alt="стерлка возле прайся ссылка">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__block-utils">
+                        <div class="main__price-block">
+                            <h3 class="main__utils-prise">800 ₽</h3>
+                            <h4 class="main__utils-prise-before">1 500 ₽</h4>
+                            <div class="main__utils-prise-arrow hover">
+                            <img src="./img/isons/arrow-prise.svg" alt="стерлка возле прайся ссылка">
+                            </div>
+                        </div>
+                        <div class="main__discount-block">
+                            <button class="main__utils-discount">скидка -36%</button>
+                            <button class="main__utils-discount">акция -20%</button>
+                        </div>
+                        <select name="" id="" class="main__utils-size hover">
+                            <option class="main__utils-size-title" value="" default disabled selected>Выбрать размер</option>
+                            <option class="main__utils-size-title">Пункт 1</option>
+                            <option class="main__utils-size-title">Пункт 2</option>
+                            <option class="main__utils-size-title">Пункт 3</option>
+                        </select>
+                        <p class="main__utils-size-explore hover">Определить размер</p>
+                        <div class="main__utils-count">
+                            <div class="main__utils-count-block">
+                                <button class="main__utils-count-plus hover">+</button>
+                                <p class="main__utils-count-title">1</p>
+                                <button class="main__utils-count-minus hover">-</button>
+                            </div>
+                            <div class="main__utils-buttons">
+                                <button class="main__utils-add hover">Добавить в корзину</button>
+                                <button class="main__utils-add-favorite hover">
+                                    <img src="./img/isons/favorite-white.svg" alt="икона добавить в избранное">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="main__utils-buy-one hover">Купить в 1 клик</div>
+                    </div>
+                    <ul class="main__links">
+                    <li class="main__link hover"> <img src="./img/isons/t-shirt.svg" alt="иконка описания товара"> Описание товара</li>
+                    <li class="main__link hover"> <img src="./img/isons/clock.svg" alt="иконка доставка и возврат"> Доставка и возврат</li>
+                    <li class="main__link hover"> <img src="./img/isons/pay.svg" alt="иконка способа оплаты"> Способы оплаты</li>
+                    </ul>
+                </div>
+            </section>
+            <h5 class="load-more hover">Посмотреть все стили</h5>
+            <section class="info">
+
+                    <div class="info__img-big">
+                            <img src="./img/pictures/info1.svg" alt="большая картинка превью">
+                    </div>
+
+                    <div class="info__smal-img">
+
+                        <div class="info__img">
+                            <div class="info__overlay">
+                                <img class="info__overlay-img hover" src="./img/isons/copy.svg" alt="иконка кпировать">
+                                <img class="info__overlay-icon-shop hover" src="./img/isons/overlayShop.svg" alt="иконка купить">
+                                <p class="info__overlay-title">Узнай что на мне</p>
+                                <img class="info__overlay-icon-stars hover" src="./img/isons/overlayStars.svg" alt="иконка рейтинг(звезды)">
+                            </div>
+                                <img class="info__img-small" src="./img/pictures/info2.svg" alt="картинка превью">
+                        </div>
+                        <div class="info__img">
+                            <div class="info__overlay">
+                                <img class="info__overlay-img hover" src="./img/isons/copy.svg" alt="иконка кпировать">
+                                <img class="info__overlay-icon-shop hover" src="./img/isons/overlayShop.svg" alt="иконка купить">
+                                <p class="info__overlay-title">Узнай что на мне</p>
+                                <img class="info__overlay-icon-stars hover" src="./img/isons/overlayStars.svg" alt="иконка рейтинг(звезды)">
+                            </div>
+                                <img class="info__img-small" src="./img/pictures/info3.svg" alt="картинка превью">
+                        </div>
+                        <div class="info__img">
+                            <div class="info__overlay">
+                                <img class="info__overlay-img hover" src="./img/isons/copy.svg" alt="иконка кпировать">
+                                <img class="info__overlay-icon-shop hover" src="./img/isons/overlayShop.svg" alt="иконка купить">
+                                <p class="info__overlay-title">Узнай что на мне</p>
+                                <img class="info__overlay-icon-stars hover" src="./img/isons/overlayStars.svg" alt="иконка рейтинг(звезды)">
+                            </div>
+                                <img class="info__img-small" src="./img/pictures/info5.svg" alt="картинка превью">
+                        </div>
+                        <div class="info__img">
+                            <div class="info__overlay">
+                                <img class="info__overlay-img hover" src="./img/isons/copy.svg" alt="иконка кпировать">
+                                <img class="info__overlay-icon-shop hover" src="./img/isons/overlayShop.svg" alt="иконка купить">
+                                <p class="info__overlay-title">Узнай что на мне</p>
+                                <img class="info__overlay-icon-stars hover" src="./img/isons/overlayStars.svg" alt="иконка рейтинг(звезды)">
+                            </div>
+                                <img class="info__img-small" src="./img/pictures/info5.svg" alt="картинка превью">   
+                        </div>
+
+                    </div>
+            </section>
+        </main>
+       <footer class="links">
+           <div class="links__block">
+               <div class="links__for-clients">
+                    <h6 class="links__title">Покупателям</h6>
+                    <ul>
+                        <li class="links__about hover">Каталог</li>
+                        <li class="links__about hover">Акции</li>
+                        <li class="links__about hover">Бренды</li>
+                    </ul>
+               </div>
+
+               <div class="links__about-us">
+                    <h7 class="links__title">Покупателям</h7>
+                    <ul>
+                        <li class="links__about hover">О компании</li>
+                        <li class="links__about hover">Новости</li>
+                        <li class="links__about hover">Команда</li>
+                    </ul>
+               </div>
+           </div>
+           <form class="links__block-suggest">
+              <h8 class="links__title">Узнайте первыми о новинках и акциях</h8>
+              <div class="links__block-input">
+                <input type="email" class="links__email" placeholder="Адрес электронной почты" required>
+                <img class='hover' src="./img/isons/deleteEmail.svg" alt="икона удалить эмейл">
+              </div>
+
+              <button class="links__add-email hover">Подписаться</button>
+           </form>
+       </footer>
+       <div class="popap">
+            <div class="popap__titile">ТОВАР В КОЛИЧЕСТВЕ ДОБАВЛЕН В КОРЗИНУ</div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
